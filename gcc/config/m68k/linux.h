@@ -28,9 +28,9 @@ along with GCC; see the file COPYING3.  If not see
 /* for 68k machines this only needs to be TRUE for the 68000 */
 
 #undef STRICT_ALIGNMENT
-#define STRICT_ALIGNMENT 0
+#define STRICT_ALIGNMENT 1
 #undef M68K_HONOR_TARGET_STRICT_ALIGNMENT
-#define M68K_HONOR_TARGET_STRICT_ALIGNMENT 0
+#define M68K_HONOR_TARGET_STRICT_ALIGNMENT 1
 
 /* Here are four prefixes that are used by asm_fprintf to
    facilitate customization for alternate assembler syntaxes.
